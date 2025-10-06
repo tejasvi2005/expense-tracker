@@ -1,7 +1,6 @@
 💰 Smart Expense Tracker
-A full-stack MERN application for managing personal finances with smart budget tracking and expense management.
 
-https://img.shields.io/badge/MERN-Full--Stack-green https://img.shields.io/badge/React-18.2-blue https://img.shields.io/badge/Node.js-Express-brightgreen https://img.shields.io/badge/MongoDB-Database-green
+A full-stack MERN application for managing personal finances with smart budget tracking and expense management.
 
 🚀 Live Demo
 http://localhost:3000/
@@ -9,10 +8,13 @@ http://localhost:3000/
 📸 Screenshots
 (Add your screenshots here)
 
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/745a7ad3-f96b-4209-8e6d-c35b49e57334" />
+<img width="1350" height="633" alt="Screenshot (92)" src="https://github.com/user-attachments/assets/9d2f3b5f-d506-4a7b-ab77-812cfed5bac2" />
+
 
 ✨ Features
+
 🔧 Core Features
+
 ✅ Add Expenses - Track spending with categories
 
 ✅ Delete Expenses - Remove unwanted entries
@@ -26,6 +28,7 @@ http://localhost:3000/
 ✅ Category-wise Tracking - Food, Transport, Entertainment, etc.
 
 🎯 Smart Features
+
 📊 Budget Alerts - Visual warnings when over budget
 
 💰 Remaining Calculation - Real-time budget remaining
@@ -35,7 +38,9 @@ http://localhost:3000/
 ⚡ Fast Performance - Optimized React components
 
 🛠️ Tech Stack
+
 Frontend
+
 React - UI framework
 
 CSS3 - Styling with modern features
@@ -43,6 +48,7 @@ CSS3 - Styling with modern features
 Axios - HTTP client for API calls
 
 Backend
+
 Node.js - Runtime environment
 
 Express.js - Web framework
@@ -56,7 +62,9 @@ JWT - Authentication ready
 CORS - Cross-origin resource sharing
 
 📥 Installation & Setup
+
 Prerequisites
+
 Node.js (v14 or higher)
 
 MongoDB Atlas account
@@ -136,6 +144,7 @@ Green: Within budget
 Red: Over budget with warning message
 
 🚀 Deployment
+
 Frontend (Vercel)
 bash
 npm run build
@@ -148,6 +157,7 @@ Set environment variables
 Deploy automatically
 
 📝 Future Enhancements
+
 User Authentication
 
 Data Visualization Charts
