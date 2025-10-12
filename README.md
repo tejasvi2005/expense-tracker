@@ -11,183 +11,66 @@ http://localhost:3000/
 <img width="1350" height="633" alt="Screenshot (92)" src="https://github.com/user-attachments/assets/9d2f3b5f-d506-4a7b-ab77-812cfed5bac2" />
 
 
-✨ Features
 
-🔧 Core Features
+## ✨ Features
 
-✅ Add Expenses - Track spending with categories
+### 🔧 Core Features
+✅ **Add Expenses** - Track spending with categories  
+✅ **Delete Expenses** - Remove unwanted entries  
+✅ **Real-time Calculations** - Automatic total spending  
+✅ **Budget Management** - Set and track monthly budgets  
+✅ **Progress Visualization** - Color-coded budget progress bar  
+✅ **Category-wise Tracking** - Food, Transport, Entertainment, etc.
 
-✅ Delete Expenses - Remove unwanted entries
+### 📊 Advanced Analytics (NEW)
+🎯 **Data Visualization Dashboard** - Interactive charts and graphs  
+📈 **Spending Analytics** - Category-wise pie charts and daily trends  
+📉 **Progress Tracking** - Visual budget progress bar with color alerts  
+📱 **Statistics Overview** - Total categories, highest spending, average daily
 
-✅ Real-time Calculations - Automatic total spending
+### 🤖 AI-Powered Insights (NEW)
+🧠 **Smart Analysis** - AI-driven spending pattern recognition  
+💡 **Personalized Recommendations** - Actionable financial advice  
+🔮 **Predictive Insights** - Future spending trends and savings opportunities  
+⚡ **Real-time Analysis** - Instant insights based on your expenses
 
-✅ Budget Management - Set and track monthly budgets
+### 📤 Export & Reporting (NEW)
+📄 **CSV Export** - Download expense data for external analysis  
+📊 **PDF Reports** - Professional expense reports  
+🗂️ **Data Backup** - Secure your financial data locally  
+📋 **Printable Summaries** - Clean, formatted expense lists
 
-✅ Progress Visualization - Color-coded budget progress bar
+### 🎯 Smart Features
+📊 **Budget Alerts** - Visual warnings when over budget  
+💰 **Remaining Calculation** - Real-time budget remaining  
+🎨 **Responsive Design** - Works on all devices  
+⚡ **Fast Performance** - Optimized React components  
+🔍 **Tab Navigation** - Easy switching between features
 
-✅ Category-wise Tracking - Food, Transport, Entertainment, etc.
+## 🛠️ Tech Stack
 
-🎯 Smart Features
+### Frontend
+- **React** - Modern UI framework with hooks
+- **Recharts** - Data visualization library (NEW)
+- **CSS3** - Advanced styling with gradients and animations
+- **Axios** - HTTP client for API communication
 
-📊 Budget Alerts - Visual warnings when over budget
+### Backend
+- **Node.js** - Runtime environment
+- **Express.js** - Web application framework
+- **MongoDB** - NoSQL database with Mongoose ODM
+- **JWT** - Authentication-ready architecture
+- **OpenAI API** - AI-powered insights integration (NEW)
+- **CORS** - Cross-origin resource sharing
 
-💰 Remaining Calculation - Real-time budget remaining
+## 📥 Installation & Setup
 
-🎨 Responsive Design - Works on all devices
+### Prerequisites
+- Node.js (v14 or higher)
+- MongoDB Atlas account
+- Git
 
-⚡ Fast Performance - Optimized React components
-
-🛠️ Tech Stack
-
-Frontend
-
-React - UI framework
-
-CSS3 - Styling with modern features
-
-Axios - HTTP client for API calls
-
-Backend
-
-Node.js - Runtime environment
-
-Express.js - Web framework
-
-MongoDB - Database (Atlas Cloud)
-
-Mongoose - ODM for MongoDB
-
-JWT - Authentication ready
-
-CORS - Cross-origin resource sharing
-
-📥 Installation & Setup
-
-Prerequisites
-
-Node.js (v14 or higher)
-
-MongoDB Atlas account
-
-Git
-
-1. Clone the Repository
-bash
-git clone https://github.com/your-username/expense-tracker.git
+### 1. Clone the Repository
+```bash
+git clone https://github.com/tejasvi2005/expense-tracker.git
 cd expense-tracker
-2. Backend Setup
-bash
-cd backend
-npm install
-Create .env file:
-
-env
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-Start backend:
-
-bash
-npm run dev
-3. Frontend Setup
-bash
-cd frontend
-npm install
-Start frontend:
-
-bash
-npm start
-4. Access Application
-Frontend: http://localhost:3000
-
-Backend API: http://localhost:5000
-
-🗂️ Project Structure
-text
-expense-tracker/
-├── backend/
-│   ├── models/          # MongoDB models
-│   ├── routes/          # API routes
-│   ├── server.js        # Express server
-│   └── package.json
-├── frontend/
-│   ├── src/
-│   │   ├── App.js       # Main component
-│   │   ├── App.css      # Styles
-│   │   └── index.js     # Entry point
-│   └── package.json
-└── README.md
-📡 API Endpoints
-Method	Endpoint	Description
-GET	/api/expenses	Get all expenses
-POST	/api/expenses	Add new expense
-DELETE	/api/expenses/:id	Delete expense
-🎯 Usage Examples
-Setting a Budget
-Enter your monthly budget in the input field
-
-Click "Update" to set the budget
-
-Watch the progress bar fill as you add expenses
-
-Adding Expenses
-javascript
-{
-  "title": "Grocery Shopping",
-  "amount": 1500,
-  "category": "Food",
-  "description": "Weekly groceries"
-}
-Budget Alerts
-Green: Within budget
-
-Red: Over budget with warning message
-
-🚀 Deployment
-
-Frontend (Vercel)
-bash
-npm run build
-# Deploy dist folder to Vercel
-Backend (Render/Railway)
-Connect GitHub repository
-
-Set environment variables
-
-Deploy automatically
-
-📝 Future Enhancements
-
-User Authentication
-
-Data Visualization Charts
-
-Export to CSV/PDF
-
-Recurring Expenses
-
-Mobile App Version
-
-AI-powered Insights
-
-👨‍💻 Developer
-Your Name
-
-GitHub: https://github.com/tejasvi2005/expense-tracker
-
-LinkedIn: https://www.linkedin.com/in/sai-tejasvi-tumuluri-6371a0272/
-
-🙏 Acknowledgments
-Icons from Shields.io
-
-UI inspiration from modern fintech apps
-
-MongoDB Atlas for cloud database
-
-⭐ Star this repo if you find it helpful!
-
-📞 Support
-If you have any questions or run into issues, please open an issue on GitHub or contact me directly.
-
-Happy Coding! 🚀
-
